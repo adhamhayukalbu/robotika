@@ -1,8 +1,8 @@
 int timer = 5000;
-int led_1_pins = {
+int led_1_pins[] = {
   1, 2, 3
 };
-int led_2_pins = {
+int led_2_pins[] = {
   4, 5, 6
 };
 int led_counts = 3;
